@@ -16,6 +16,8 @@ int main(){
 
     // std::cout << std::setw(16) << "void:" << sizeof(void) << " bytes\n";                 // compilation error as void type is incomplete
     std::cout << std::setw(16) << "nullptr_t:" << sizeof(nullptr_t) << " bytes\n";
+    std::cout << std::setw(16) << "size_t:" << sizeof(std::size_t) << " bytes\n";
+
 
     return 0;
 }

@@ -9,7 +9,7 @@ int main(){
     constexpr int x{};                  //always compile time const value should be initialized at compile time
     // constexpr int y{var};            //runtime constant exp are not supported within constexpr
     // constexpr int y{runtimeConst};   //runtime constant exp are not supported within constexpr
-    constexpr int y{compiletimeConst};  //runtime constant exp are not supported within constexpr
+    constexpr int y{compiletimeConst};  //compile time const are supported within constexpr
     constexpr double z{9.234};          //constexpr supports compile time constants other than integral types
 
     std::cout<<"var: "<<var<<'\n';

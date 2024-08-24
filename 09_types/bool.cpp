@@ -10,6 +10,6 @@ int main(){
     bool y{0};
     bool z = -7;
     std::cout<<"y: "<<y<<"\n";
-    std::cout<<"z: "<<z<<"\n";
+    std::cout<<"z: "<<z<<"\n";          //Anyvalues other than 0 are considered as false
     return 0;
 }

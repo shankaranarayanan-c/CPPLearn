@@ -13,8 +13,8 @@ void printHello(){
 // 2. return type should be literal type
 // 3. There exist one control flow through with the function can be executed at compile time even though it has a call to non constexpr fun
 
-constexpr double circleCirumference(double radius){                         //parameteres are not constexpr or constexpr parameters cant be used
-    // radius > 0 ? printHi() : printHello();                               //call to be nonconstexpr can be made but there should exist one option to execute at
+constexpr double circleCirumference(double radius){                         // parameteres are not constexpr or constexpr parameters cant be used
+    // radius > 0 ? printHi() : printHello();                               // call to be nonconstexpr can be made but there should exist one option to execute at
     radius > 0 ? void(0) : printHello();                                    // compile time
     return 2 * PI * radius;                                                
 }

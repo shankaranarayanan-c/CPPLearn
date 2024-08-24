@@ -4,7 +4,8 @@ int main(){
     unsigned short x{2};
     unsigned short y{4};
 
-    std::cout<<"result: "<<x-y<<"\n";
+    x = x-y;
+    std::cout<<"result: "<<x<<"\n";
 
     return 0;
 }

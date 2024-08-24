@@ -21,9 +21,9 @@ int main(){
 
     int x;
     x = 10;
-    const int y{x};                                     //can be initialized with non const by the value has to be initialized
-    x = 20;    
-    std::cout<<"y: "<<y<<'\n';
+    const int y{x};                                     // can be initialized with non const by the value has to be initialized
+    x = 20;                                             // The value of y is not altered here Y is initialized with the value of X
+    std::cout<<"y: "<<y<<'\n';  
 
     return 0;
 }

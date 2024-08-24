@@ -1,5 +1,6 @@
 #ifndef ADD_H
 #define ADD_H
+#include <iostream>
 
 // #pragma once                 header guards can be replaced with #pragma once
 

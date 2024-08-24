@@ -4,7 +4,7 @@
 
 void foo(){
 
-    #ifdef error
+    #ifdef ERROR
     std::cout<<"Error Occured! \n";
     #else
     std::cout<<"No Error! \n";

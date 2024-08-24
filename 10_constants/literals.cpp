@@ -5,7 +5,7 @@
 int main(){
 
     std::cout<<"long: "<<34L<<'\n';                     
-    std::cout<<"unsigned: "<<34L<<'\n';
+    std::cout<<"unsigned: "<<34U<<'\n';
     std::cout<<"long long: "<<1234567891234567891LL<<'\n';                       //ll or LL suffix only preferebly LL
     std::cout<<"unsigned long: "<<2341UL<<'\n';                                  //Ul, ul, UL, uL
     std::cout<<"unsigned long long: "<<12345678912345678912ULL<<'\n';            //ull, uLL, Ull, ULl, UlL, ULL
