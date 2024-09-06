@@ -11,7 +11,6 @@ int main(){
 
     std::cout<<"x: "<<x<<'\n';
     std::cout<<"y: "<<y<<'\n';
-    std::cout<<"y: "<<a<<'\n';
 
     return 0;
 }

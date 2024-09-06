@@ -5,9 +5,9 @@ int main(){
     std::cout<<"Hello World! \n";                               //C Style strings not flexible, cannot store large size strings to shorted memory UB
     
     std::string str1{};
-    std::cout<<"str1: "<<str1<<'\n';
+    std::cout<<"str1: "<<str1<<" in address : "<<&str1<<'\n';
     str1="Shankar";                                             //memory allocated dynamically and hence it is costly operation
-    std::cout<<"str1: "<<str1<<'\n';
+    std::cout<<"str1: "<<str1<<" in address : "<<&str1<<'\n';
     
     //getting a string input
     std::string inputStr{};

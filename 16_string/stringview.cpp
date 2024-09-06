@@ -29,7 +29,7 @@ int main(){
 
     std::string_view sv1{"Hi"};                                                             //no copy is made and string view is readonly cannot be intialized dynamically
     printStringView(sv1);                       
-    printStringView(str1);                                                                  //Accepts std:;string
+    printStringView(str1);                                                                  //Accepts std::string
     printStringView("Test");                                                                //Also accepts c style strings
     // std::getline(std::cin>>std::ws, sv1);                                                //A string view value cannot be modified
 

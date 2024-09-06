@@ -1,7 +1,8 @@
-#include "mathvalue.hpp"
+#include "mathvalue.h"
 
-int getCMForaMetre();
+// int getCMForaMetre();
 
-inline int convertMetreToCM(int metre){
+int convertMetreToCM(int metre){
+    std::cout<<"In conversion lib! \n";
     return metre * getCMForaMetre();
 }

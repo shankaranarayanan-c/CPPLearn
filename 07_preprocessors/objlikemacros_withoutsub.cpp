@@ -21,7 +21,7 @@ int main(){
 
     #if 0
 
-    Even this section will not compile
+    this section will not compile
 
     #endif
 

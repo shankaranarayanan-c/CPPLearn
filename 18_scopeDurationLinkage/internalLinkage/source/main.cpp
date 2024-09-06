@@ -1,6 +1,6 @@
 #include <iostream>
 
-// extern double pi;                                                            //staic global variables has internal linkage not available outside TU
+// extern double pi;                                                            //static global variables has internal linkage not available outside TU
 static double pi{2.141};
 // extern int twice;                                                            //const and constexpr global variables has internal linkage and static keyword is not needed
 const int twice{4};
