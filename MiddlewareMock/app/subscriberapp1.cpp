@@ -14,7 +14,7 @@ void signalHandler(int signal){
 int main(){
     std::string app_name = "receiver1";
     subscriber s1("senderreceiver1");
-    subscriber s2("senderreceiver1");
+    subscriber s2("senderreceiver2");
     signal(SIGTERM, signalHandler);
     std::string appName = "subscriber app : " + app_name;
     while(flag){
