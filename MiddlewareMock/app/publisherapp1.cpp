@@ -21,7 +21,6 @@ int main(){
          sleep(1);
          p.send(data);
          std::string message = appName +" sent data : "+std::to_string(data);
-        //  std::cout<<message<<'\n';
          LOG(message.c_str());
          data++;
     }

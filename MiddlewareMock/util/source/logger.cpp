@@ -14,6 +14,5 @@ void LOG(const char* msg){
       int totalsec = min * 60 + sec;  
       currentTimeMS = (currentTimeMS) % (totalsec*1000);
     }
-    // auto remainingMillisec = currentTimeMS % 1000;
     std::cout<<"["<<min<<"m:"<<sec<<"s:"<<currentTimeMS<<"ms] - "<<msg<<'\n';
 }
